@@ -9,7 +9,7 @@ export const RecentSaved = () => {
       <div className="flex flex-col justify-start items-start my-4 gap-4">
         {users.map((user) => (
           <div
-            className="flex justify-between items-center bg-gray-100 w-full h-[80px] rounded-lg"
+            className="flex justify-between items-center bg-gray-100 w-full h-[80px] rounded-lg p-4"
             key={user.username}>
             <div>
               <h3 className="flex items-center gap-2">

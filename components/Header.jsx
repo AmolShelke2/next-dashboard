@@ -7,7 +7,7 @@ export const Header = () => {
         collegementor dashboard
       </h2>
       <h2 className="text-sm lg:text-xl whitespace-nowrap capitalize mb-2">
-        Welcom back, John
+        Welcom back, Amol
       </h2>
     </div>
   );
