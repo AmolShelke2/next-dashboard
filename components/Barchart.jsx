@@ -51,14 +51,14 @@ export const Barchart = () => {
         },
       },
       maintainAspectRatio: false,
-      responsiveness: true,
+      responsive: true,
     });
   });
 
   return (
     <>
       <div
-        className=" w-full lg:col-span-2 relative lg:h-[70vh] m-auto 
+        className=" w-full lg:col-span-2 relative h-[50vh] lg:h-[70vh] m-auto 
       p-4 border rounded-lg bg-white">
         <Bar data={chartData} options={chartOptions} />
       </div>
