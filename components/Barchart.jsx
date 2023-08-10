@@ -53,7 +53,7 @@ export const Barchart = () => {
       maintainAspectRatio: false,
       responsive: true,
     });
-  });
+  }, []);
 
   return (
     <>
