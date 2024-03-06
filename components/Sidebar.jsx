@@ -25,16 +25,6 @@ export const Sidebar = ({ children }) => {
               <RxPerson size={20} />
             </div>
           </Link>
-          <Link href="/testScores">
-            <div className=" bg-gray-100 hover:bg-gray-200 p-3 rounded-lg inline-block my-4">
-              <HiOutlineShoppingBag size={20} />
-            </div>
-          </Link>
-          <Link href="/edit">
-            <div className=" bg-gray-100 hover:bg-gray-200 p-3 rounded-lg inline-block my-4">
-              <FiSettings size={20} />
-            </div>
-          </Link>
         </div>
       </div>
       <main className="ml-20 w-full">{children}</main>
